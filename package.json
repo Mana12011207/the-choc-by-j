@@ -8,7 +8,27 @@
     "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "Chocolate shop",
+    "Online chocolate store",
+    "Gourmet chocolate",
+    "Handmade chocolate",
+    "Artisanal chocolate",
+    "Chocolate gifts",
+    "Premium chocolate",
+    "Dark chocolate",
+    "Milk chocolate",
+    "White chocolate",
+    "Truffles",
+    "Bonbons",
+    "Chocolate bars",
+    "Chocolate assortments",
+    "Chocolate boxes",
+    "Cake",
+    "Macaron",
+    "Sweet",
+    "Treats"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
