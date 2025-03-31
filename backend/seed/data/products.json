@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Chocolate BonBon",
+    "price": "25",
+    "size": "100",
+    "description": "",
+    "storageInstruction": "Avoid direct sunlight, high temperature and humidity. Store in a cool place (15°C to 18°C is the optimal temperature).",
+    "leadTime": "5-7 days",
+    "imageUrl": "",
+    "category": "",
+    "allergen": "Allergen Notice: Contains Dairy and Wheat. May contain traces of nuts."
+  }
+]

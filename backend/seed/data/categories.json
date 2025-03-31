@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Chocolate",
+    "subcategories": []
+  },
+  {
+    "name": "Sweet Treats",
+    "subcategories": [
+      {
+        "name": "Cakes"
+      },
+      { "name": "Cookies" },
+      { "name": "Macarons" }
+    ]
+  },
+  { "name": "Catering", "subcategories": [] }
+]
