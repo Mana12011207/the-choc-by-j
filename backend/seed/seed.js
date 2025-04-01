@@ -11,9 +11,6 @@ const __dirname = path.dirname(__filename);
 // Load environmental variables
 dotenv.config({ path: path.resolve(__dirname, "../../.env") });
 
-console.log("DB_USER:", process.env.DB_USER);
-console.log("DB_PASSWORD:", process.env.DB_PASSWORD);
-
 async function importCategories() {
   try {
     // MongoDB connection
