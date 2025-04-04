@@ -1,7 +1,7 @@
 [
   {
     "name": "Chocolate BonBon",
-    "price": "25",
+    "price": 25,
     "size": "100",
     "description": "Using the traditional way to hand temper chocolate to perfection, result in a luxurious & smooth chocolate shell with a variety of melt-in-your-mouth fillings. Made to order.",
     "ingredients": "Hand-tempered Chocolate shell with assorted ganache. An example of our flavours are : Bailey and Milk Chocolate Ganache / Salted Caramel / lime / honey and praline / Dark Chocolate Caramel / Raspberry and Vanilla",
@@ -10,11 +10,11 @@
     "imageUrl": "",
     "category": "67ea5a15986e66d0102538bf",
     "subCategory": null,
-    "allergen": "Allergen Notice: Contains Dairy and Wheat. May contain traces of nuts."
+    "allergen": "Contains Dairy and Wheat. May contain traces of nuts."
   },
   {
     "name": "Almond Cluster",
-    "price": "20",
+    "price": 20,
     "size": "150",
     "description": "Milk Chocolate with twice oven baked almond. Full of crunchy, nutty texture of almonds contrasts beautifully with the rich, velvety chocolate coating. Option for plant-based Chocolate, please let us know when placing order.",
     "ingredients": "Australian Almond & Belgian Milk Chocolate.",
@@ -23,11 +23,11 @@
     "imageUrl": "",
     "category": "67ea5a15986e66d0102538bf",
     "subCategory": null,
-    "allergen": "Allergen Notice: Contains Dairy and Wheat. May contain traces of nuts."
+    "allergen": "Contains Dairy and Wheat. May contain traces of nuts."
   },
   {
     "name": "Chocolate bar",
-    "price": "12",
+    "price": 12,
     "size": "80",
     "description": "Our confections are carefully crafted by hand using fresh ingredients. Our best seller - Belgian Chocolate 54% or plant-based Chocolate, with or without mixed nuts. Let us know when placing order.",
     "ingredients": "Flavours : Single origin 70% Dark Chocolate / Creamy Milk Chocolate with mixed nuts / 54% Belgian Dark Chocolate with rose petal & freeze-dried strawberry powder.",
@@ -36,11 +36,11 @@
     "imageUrl": "",
     "category": "67ea5a15986e66d0102538bf",
     "subCategory": null,
-    "allergen": "Allergen Notice: Contains Dairy and Wheat. May contain traces of nuts."
+    "allergen": "Contains Dairy and Wheat. May contain traces of nuts."
   },
   {
     "name": "Chocolate Mendiant Series",
-    "price": "25",
+    "price": 25,
     "size": "80",
     "description": "Chocolate Mendiant is a traditional French confection. We beautifully arranged it with dried fruits and nut on top of our high quality hand-tempered chocolate. ",
     "ingredients": "54% Belgian Dark Chocolate with dried apricot, dried cranberries, roasted Australian almond and nuts. ",
@@ -49,11 +49,11 @@
     "imageUrl": "",
     "category": "67ea5a15986e66d0102538bf",
     "subCategory": null,
-    "allergen": "Allergen Notice: Contains Dairy and Wheat. May contain traces of nuts."
+    "allergen": "Contains Dairy and Wheat. May contain traces of nuts."
   },
   {
     "name": "Chocolate Animals",
-    "price": "20",
+    "price": 20,
     "size": "100",
     "description": "Our cutest Chocolate animals are playful and delighted confections made from rich, smooth hand-tempered chocolate and shape it in various   animals such as lions, bunnies, elephants, pig, cows. It is perfect for children's parties, festive occasions or personalized gifts.",
     "ingredients": "54% Belgian Dark Chocolate",
@@ -62,11 +62,11 @@
     "imageUrl": "",
     "category": "67ea5a15986e66d0102538bf",
     "subCategory": null,
-    "allergen": "Allergen Notice: Contains Dairy and Wheat. May contain traces of nuts."
+    "allergen": "Contains Dairy and Wheat. May contain traces of nuts."
   },
   {
     "name": "Signature Flourless Chocolate Cake",
-    "price": "58.00",
+    "price": 58.0,
     "size": "18cm / 3-layered",
     "description": "An indulgent and three-layered chocolate goodness, with a chocolaty and smooth ganache to enhance luxurious feel. It's a decadent  treat for chocoalte lovers and for any occasion.",
     "ingredients": "Chocolate(52%)(Sugar, Cocoa Butter, Milk Solids, Soya Lecithin, Vanilla), Sugar, Egg, Butter(Milk), Milk, Vanilla",
@@ -75,11 +75,11 @@
     "imageUrl": "",
     "category": "67ea5a15986e66d0102538c2",
     "subCategory": "67ea5a15986e66d0102538c3",
-    "allergen": "Allergen Notice: Contains Dairy and Wheat. May contain traces of nuts."
+    "allergen": "Contains Dairy and Wheat. May contain traces of nuts."
   },
   {
     "name": "Macaron XL",
-    "price": "20.00",
+    "price": 20.0,
     "size": "3 pieces / 6cm each",
     "description": "Signature flavour - Smooth and silky lemon buttercream, tangy Lemon curd, fresh berries & Chocolate garnish on top.",
     "ingredients": "Almond flour, sugar, egg, lemon, butter, chocolate & food colouring.",
@@ -88,11 +88,11 @@
     "imageUrl": "",
     "category": "67ea5a15986e66d0102538c2",
     "subCategory": "67ea5a15986e66d0102538c5",
-    "allergen": "Allergen Notice: Contains Dairy and Wheat. May contain traces of nuts."
+    "allergen": "Contains Dairy and Wheat. May contain traces of nuts."
   },
   {
     "name": "Macaron XL",
-    "price": "20.00",
+    "price": 20.0,
     "size": "3 pieces / 6cm each",
     "description": "Signature flavour - Praline, Praline buttercream, roasted Almond & Chocolate ganrish on top.",
     "ingredients": "Almond flour, sugar, egg, nuts, butter, chocolate & food colouring. ",
@@ -101,11 +101,11 @@
     "imageUrl": "",
     "category": "67ea5a15986e66d0102538c2",
     "subCategory": "67ea5a15986e66d0102538c5",
-    "allergen": "Allergen Notice: Contains Dairy and Wheat. May contain traces of nuts."
+    "allergen": "Contains Dairy and Wheat. May contain traces of nuts."
   },
   {
     "name": "Nuttie Florentine",
-    "price": "20.00",
+    "price": 20.0,
     "size": "12 pieces",
     "description": "A delicate, crispy and caramelized biscuit combined with thinly sliced nuts. It is crunchy and slightly chewy.",
     "ingredients": "Butter, sugar, honey, nuts & flour.",
@@ -114,11 +114,11 @@
     "imageUrl": "",
     "category": "67ea5a15986e66d0102538c2",
     "subCategory": "67ea5a15986e66d0102538c4",
-    "allergen": "Allergen Notice: Contains Dairy and Wheat. May contain traces of nuts."
+    "allergen": "Contains Dairy and Wheat. May contain traces of nuts."
   },
   {
     "name": "Basque Cheese Cake",
-    "price": "45.00",
+    "price": 45.0,
     "size": "",
     "description": "Deep caramelized notes from the burnt top and a velvety, melt-in-your-mouth interior with a subtle tang from the cream cheese. It is simple yet indulgent dessert to share.",
     "ingredients": "Cream cheese, cream, sugar, egg, & vanilla.",
@@ -127,6 +127,6 @@
     "imageUrl": "",
     "category": "67ea5a15986e66d0102538c2",
     "subCategory": "67ea5a15986e66d0102538c3",
-    "allergen": "Allergen Notice: Contains Dairy and Wheat. May contain traces of nuts."
+    "allergen": "Contains Dairy and Wheat. May contain traces of nuts."
   }
 ]

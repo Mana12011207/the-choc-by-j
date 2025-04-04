@@ -1,12 +1,11 @@
 import mongoose from "mongoose";
-import Category from "../models/Category.js";
-import User from "../models/User.js";
-import Product from "../models/Product.js";
+import Category from "../models/CategoryModel.js";
+import User from "../models/UserModel.js";
+import Product from "../models/ProductModel.js";
 import fs from "fs";
 import dotenv from "dotenv";
 import path from "path";
 import { fileURLToPath } from "url";
-import { json } from "express/lib/response.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -14,24 +13,26 @@ const __dirname = path.dirname(__filename);
 // Load environmental variables
 dotenv.config({ path: path.resolve(__dirname, "../../.env") });
 
+//  * Reads a JSON file from the given file path and inserts the data into the specified Mongoose model.
 async function importJsonToDatabase(filePath, Model) {
   try {
     //Check if the file exists
     if (!fs.existsSync(filePath)) {
       throw new Error(`File not found at path: ${filePath}`);
     }
-    // Read json data
-    const jsonData = json.parse(fs.readFileSync(filePath, "utf-8"));
+    // Read and parse the JSON data from the file
+    const jsonData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
     console.log(`${Model.modelName} data loaded from ${filePath}:`, jsonData);
 
-    // Save data to the database
+    // Insert the parsed data into the database
     await Model.insertMany(jsonData);
     console.log(`${Model.modelName} data imported successfully`);
   } catch (error) {
-    console.error(`Error importing ${Model.modelName} data from {filePath}`);
+    console.error(`Error importing ${Model.modelName} data from ${filePath}`);
   }
 }
 
+// Main function to seed the database with initial data
 async function importData() {
   try {
     // MongoDB connection
@@ -39,6 +40,14 @@ async function importData() {
       `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@thechocbyj-dev.etc1o88.mongodb.net/thechocbyj?retryWrites=true&w=majority&appName=TheChocByJ-Dev`
     );
     console.log("Connected to MongoDB!");
+
+    // Delete existing data from collections to prevent duplicate entries
+    await Category.deleteMany({});
+    console.log("Existing categories droppped");
+    await Product.deleteMany({});
+    console.log("Existing products droppped");
+    await User.deleteMany({});
+    console.log("Existing users droppped");
 
     // Construct the path to categories.json
     const categoriesFilePath = path.resolve(__dirname, "data/categories.json");
@@ -59,4 +68,4 @@ async function importData() {
   }
 }
 
-importCategories();
+importData();

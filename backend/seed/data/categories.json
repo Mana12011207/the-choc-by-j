@@ -2,16 +2,16 @@
   {
     "_id": "67ea5a15986e66d0102538bf",
     "name": "Chocolate",
-    "subcategories": []
+    "subCategories": []
   },
   {
     "_id": "67ea5a15986e66d0102538c2",
     "name": "Sweet Treats",
-    "subcategories": [
+    "subCategories": [
       { "name": "Cakes", "_id": "67ea5a15986e66d0102538c3" },
       { "name": "Cookies", "_id": "67ea5a15986e66d0102538c4" },
       { "name": "Macarons", "_id": "67ea5a15986e66d0102538c5" }
     ]
   },
-  { "_id": "67ea5a15986e66d0102538c7", "name": "Catering", "subcategories": [] }
+  { "_id": "67ea5a15986e66d0102538c7", "name": "Catering", "subCategories": [] }
 ]
