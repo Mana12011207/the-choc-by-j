@@ -28,7 +28,10 @@ async function importJsonToDatabase(filePath, Model) {
     await Model.insertMany(jsonData);
     console.log(`${Model.modelName} data imported successfully`);
   } catch (error) {
-    console.error(`Error importing ${Model.modelName} data from ${filePath}`);
+    console.error(
+      `Error importing ${Model.modelName} data from ${filePath}`,
+      error
+    );
   }
 }
 
