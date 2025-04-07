@@ -33,7 +33,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^2.2.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
