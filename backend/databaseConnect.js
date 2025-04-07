@@ -3,7 +3,7 @@ import util from "util";
 
 const databaseConnect = async () => {
   try {
-    const DB_URI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_CLUSTER}/${process.env.DB_NAME}${process.env.DB_OPTIONS}`;
+    const DB_URI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_CLUSTER}/${process.env.DB_NAME}`;
 
     // MongoDB connection
     await mongoose.connect(DB_URI, {
