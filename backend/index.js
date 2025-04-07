@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 import path from "path";
 import { fileURLToPath } from "url";
 import { MongoClient, ServerApiVersion } from "mongodb";
-import bodyParser from "body-parser";
+import app from "server.js";
 
 // Configureation for enviroment variables
 const __filename = fileURLToPath(import.meta.url);
