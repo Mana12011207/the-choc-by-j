@@ -1,9 +1,10 @@
 import databaseConnect from "../databaseConnect.js";
-import Category from "./models/CategoryModel.js";
-import User from "./models/UserModel.js";
-import Product from "./models/ProductModel.js";
+import Category from "../models/CategoryModel.js";
+import User from "../models/UserModel.js";
+import Product from "../models/ProductModel.js";
 import path from "path";
 import fs from "fs";
+import mongoose from "mongoose";
 
 const importJsonToDatabase = async (filePath, Model) => {
   try {

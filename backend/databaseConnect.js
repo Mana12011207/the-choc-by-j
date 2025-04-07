@@ -3,12 +3,13 @@ import util from "util";
 
 const databaseConnect = async () => {
   try {
+    // Build MongoDB URI using environment variables
     const DB_URI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_CLUSTER}/${process.env.DB_NAME}`;
 
-    // MongoDB connection
+    // Connect to MongoDB using Mongoose
     await mongoose.connect(DB_URI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
+      useNewUrlParser: true, //Ensure compatibility with MongoDB URI string
+      useUnifiedTopology: true, // Use the new connection management engine
     });
     console.log("Connected to MongoDB successfully!");
 
@@ -27,8 +28,7 @@ const databaseConnect = async () => {
     }
   } catch (error) {
     console.error("Failed to connect MongoDB:.", error);
-    // Terminate the process with a non-zero status to indicate failure
-    process.exit(1);
+    process.exit(1); // Terminate the process in case of a fatal error
   }
 };
 
