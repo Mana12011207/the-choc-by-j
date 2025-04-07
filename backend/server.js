@@ -4,9 +4,14 @@ import userRoutes from "./routes/userRoutes";
 import categoryRoutes from "./routes/categoryRoutes";
 import orderRoutes from "./routes/orderRoutes";
 import cors from "cors";
+import helmet from "helmet";
 
 //Define a server instance
 const app = express();
+
+// GLOBAL MIDDLEWARES
+// Set security HTTP headers
+app.use(helmet());
 
 // Middleware to enable request.body
 app.use(express.json());
@@ -28,5 +33,13 @@ app.use("/api/products", productRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/categories", categoryRoutes);
 app.use("/api/orsers", orderRoutes);
+
+// Middleware to handle 404 Not Found error
+app.call("*", (req, res, next) => {
+  next(new AppError(`Can't find ${req.originalURL} on this server.`, 404));
+});
+
+// Middleware for global error handler
+app.use(globalErrorHandling);
 
 export default app;
